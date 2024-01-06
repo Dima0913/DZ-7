@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+div {
+    margin: 10px;
+}
+
+header {
+    background-color: rgb(197 48 69);
+    padding: 20px;
+    padding-left: 50px;
+}
+
+header,
+footer {
+    margin: 10px;
+}
+
+.menu,
+footer {
+    background-color: rgb(157 18 37);
+    padding: 5px;
+    padding-left: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.aside div,
+.main-content {
+    background-color: rgb(229 92 111);
+}
+
+.aside {
+    height: 35vh;
+}
+
+.aside1 {
+    padding: 20px;
+    padding-left: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.aside2 {
+    padding: 20px;
+    padding-left: 50px;
+    height: 10vw;
+    margin: 0;
+}
+
+.aside1,
+.aside2 {
+    width: 15vw;
+}
+
+.aside3 {
+    padding: 20px;
+    width: 5vw;
+    margin: 0;
+    height: 100%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.main-content {
+    padding: 20px;
+    padding-left: 50px;
+    width: 80vw;
+}
+
+.main-content div {
+    background-color: rgb(255 146 159);
+    padding: 20px;
+    padding-left: 50px;
+    height: 17vh;
+}

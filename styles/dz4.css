@@ -1,0 +1,70 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    background-color: rgb(33 79 117);
+    padding: 60px;
+    width: 60vw;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu div {
+    margin-left: 10vw;
+}
+
+.menu div p:hover {
+    text-decoration: underline;
+}
+
+.fb {
+    width: 64px;
+    height: 64px;
+    background-image: url('../img/fb_gray.png');
+    display: inline-block;
+}
+
+.fb:hover {
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/fb.png");
+    display: inline-block;
+}
+
+.insta {
+    width: 64px;
+    height: 64px;
+    background-image: url('../img/insta_gray.png');
+    display: inline-block;
+}
+
+.insta:hover {
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/insta.png");
+    display: inline-block;
+}
+
+.yt {
+    width: 64px;
+    height: 64px;
+    background-image: url('../img/youtube_gray.png');
+    display: inline-block;
+}
+
+.yt:hover {
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/youtube.png");
+    display: inline-block;
+}
+
+.foot {
+    text-align: center;
+    font-size: small;
+}
